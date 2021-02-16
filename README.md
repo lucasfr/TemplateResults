@@ -178,7 +178,7 @@ Packages & Data
 Packages
 --------
 
-This document was prepared on 2021-02-10.
+This document was prepared on 2021-02-16.
 
 ``` r
 library(easystats)
@@ -186,13 +186,13 @@ library(easystats)
 summary(report::report(sessionInfo()))
 ```
 
-The analysis was done using the R Statistical language (v4.0.3; R Core
-Team, 2020) on macOS Catalina 10.15.7, using the packages effectsize
-(v0.4.3.2), ggplot2 (v3.3.3), stringr (v1.4.0), tidyr (v1.1.2), forcats
+The analysis was done using the R Statistical language (v4.0.4; R Core
+Team, 2021) on macOS Catalina 10.15.7, using the packages effectsize
+(v0.4.3.1), ggplot2 (v3.3.3), stringr (v1.4.0), tidyr (v1.1.2), forcats
 (v0.5.1), readr (v1.4.0), dplyr (v1.0.4), rmarkdown (v2.6), tibble
-(v3.0.6), purrr (v0.3.4), parameters (v0.11.0.1), insight (v0.12.0.1),
+(v3.0.6), purrr (v0.3.4), parameters (v0.11.0.1), insight (v0.13.0.1),
 see (v0.6.2.1), performance (v0.7.0), modelbased (v0.5.1), easystats
-(v0.2.0), correlation (v0.5.1), bayestestR (v0.8.2.1), report (v0.2.0)
+(v0.2.0), correlation (v0.6.0.1), bayestestR (v0.8.2.1), report (v0.2.0)
 and tidyverse (v1.3.0).
 
 Data
@@ -398,7 +398,7 @@ report::cite_packages(sessionInfo())
     methodological best practices adoption. CRAN. Available from
     <a href="https://github.com/easystats/report" class="uri">https://github.com/easystats/report</a>.
     doi: .
--   R Core Team (2020). R: A language and environment for statistical
+-   R Core Team (2021). R: A language and environment for statistical
     computing. R Foundation for Statistical Computing, Vienna, Austria.
     URL
     <a href="https://www.R-project.org/" class="uri">https://www.R-project.org/</a>.
