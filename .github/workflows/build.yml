@@ -16,6 +16,8 @@ jobs:
         run: |
             Rscript -e 'install.packages(c("rmarkdown", "remotes", "tidyverse", "insight", "bayestestR", "performance", "parameters", "effectsize", "modelbased", "correlation", "see"))'
             Rscript -e 'remotes::install_github("easystats/report")'
+            Rscript -e "remotes::install_github('rstudio/reticulate')"
+            Rscript -e "reticulate::install_miniconda()"
       - name: Install Other Dependencies
         run: |
             Rscript -e 'install.packages(c("qqplotr", "gridExtra"))'
